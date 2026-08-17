@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111d">
+  <meta name="description" content="Realta Fusion develops advanced fusion systems engineered for scalable power generation.">
+  <title>Realta Fusion — Fusion Energy Systems</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="hero-fixes.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="loader" aria-live="polite"><div><span>INITIALIZING FUSION SYSTEM</span><span>LOADING VISUAL SEQUENCE / 01</span></div><div class="loader-line"><i></i></div></div>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div><div class="cursor-ring" aria-hidden="true"><span></span></div>
+  <header class="nav" data-cursor="nav">
+    <a class="brand" href="#top" aria-label="Realta Fusion home">REALTA FUSION</a>
+    <nav aria-label="Primary navigation">
+      <a href="#science">SCIENCE</a><a href="#engineering">ENGINEERING</a><a href="#deployment">DEPLOYMENT</a><a href="#library">LIBRARY</a>
+    </nav>
+    <a class="contact" href="mailto:contact@realtafusions.com">CONTACT ↗</a>
+    <button class="menu" aria-label="Open navigation" aria-expanded="false">MENU</button>
+  </header>
+  <main id="top">
+    <section class="hero" id="science" aria-label="Fusion without limits">
+      <div class="hero-sticky">
+        <video id="heroVideo" class="hero-video" muted playsinline preload="auto" poster="assets/realta-fusion-poster.jpg" tabindex="-1" aria-hidden="true"><source src="assets/realta-fusion-scroll.mp4" type="video/mp4"></video>
+        <div class="hero-shade"></div>
+      </div>
+    </section>
+
+    <section class="engine light" id="engineering">
+      <div class="grid-overlay"></div><div class="section-index">02 / ENGINEERING</div>
+      <div class="engine-copy reveal"><p class="eyebrow">THE REALTA ENGINE</p><h2>A FUSION<br>ENGINE BUILT<br>FOR CONTINUOUS<br>POWER.</h2>
+        <div class="specs"><p><span>THERMAL OUTPUT</span><b>1 GW</b></p><p><span>FUEL</span><b>DEUTERIUM / HELIUM–3</b></p><p><span>CONFIGURATION</span><b>MAGNETIC COMPRESSION</b></p></div>
+      </div>
+      <div class="engine-visual reveal"><video muted playsinline loop preload="metadata"><source src="assets/01.mp4" type="video/mp4"></video><div class="frame-label">REALTA / MAIN CONFINEMENT ARRAY</div><div class="crosshair"></div></div>
+    </section>
+
+    <section class="perspectives" aria-labelledby="perspectives-title">
+      <div class="section-head reveal"><div><p class="eyebrow">CRITICAL COMPONENTS</p><h2 id="perspectives-title">ENGINEERING PERSPECTIVES</h2></div><p>Five systems. One continuous reaction.<br>Hover to inspect the architecture.</p></div>
+      <div class="gallery" data-cursor="gallery">
+        <article class="panel" tabindex="0"><video muted playsinline loop preload="metadata" src="assets/01.mp4"></video><div class="panel-label"><b>01</b><span>FUEL INJECTION</span><div><strong>PRECISION FUEL DELIVERY</strong><p>Controlled particle streams feed the reaction at exact intervals.</p></div></div></article>
+        <article class="panel" tabindex="0"><video muted playsinline loop preload="metadata" src="assets/02.mp4"></video><div class="panel-label"><b>02</b><span>MAGNETIC ARRAY</span><div><strong>SUPERCONDUCTING FIELD</strong><p>Coils form the geometry required for stable plasma compression.</p></div></div></article>
+        <article class="panel" tabindex="0"><video muted playsinline loop preload="metadata" src="assets/03.mp4"></video><div class="panel-label"><b>03</b><span>PLASMA HEATING</span><div><strong>IGNITION TEMPERATURE</strong><p>Plasma reaches conditions hotter than the core of the sun.</p></div></div></article>
+        <article class="panel" tabindex="0"><video muted playsinline loop preload="metadata" src="assets/04.mp4"></video><div class="panel-label"><b>04</b><span>CONFINEMENT</span><div><strong>STABLE FIELD CONTROL</strong><p>Real-time diagnostics hold the reaction clear of chamber walls.</p></div></div></article>
+        <article class="panel" tabindex="0"><video muted playsinline loop preload="metadata" src="assets/05.mp4"></video><div class="panel-label"><b>05</b><span>ENERGY CAPTURE</span><div><strong>DIRECT POWER OUTPUT</strong><p>Reaction energy is converted into dispatchable electrical power.</p></div></div></article>
+      </div>
+    </section>
+
+    <section class="sequence" id="deployment"><div class="section-index">04 / SYSTEM SEQUENCE</div><div class="sequence-grid">
+      <article><b>01</b><span>INJECT</span><p>Isotopes enter a sealed vacuum chamber.</p></article><article><b>02</b><span>CONFINE</span><p>Magnetic fields form a stable plasma envelope.</p></article><article><b>03</b><span>IGNITE</span><p>Fusion releases energy without combustion.</p></article><article><b>04</b><span>CAPTURE</span><p>Heat becomes firm, grid-ready electricity.</p></article>
+    </div></section>
+
+    <section class="statement"><div class="statement-copy reveal"><p class="eyebrow">INDUSTRIAL / BASELOAD / ZERO CARBON</p><h2>MAGNETIC<br>COMPRESSION<br>AT INDUSTRIAL<br>SCALE.</h2></div><video muted playsinline loop preload="metadata" src="assets/03.mp4"></video></section>
+
+    <section class="library" id="library"><p class="eyebrow">TECHNICAL LIBRARY / 05</p><h2 class="reveal">A MACHINE BUILT<br>FOR THE REAL WORLD.</h2><div class="library-grid"><p>Compact, modular and designed for existing grid infrastructure. Realta turns a physics breakthrough into repeatable industrial hardware.</p><a href="mailto:contact@realtafusions.com">REQUEST TECHNICAL BRIEF <span>↗</span></a></div></section>
+  </main>
+  <footer><a class="brand" href="#top">REALTA FUSION</a><div><a href="#science">SCIENCE</a><a href="#engineering">TECHNOLOGY</a><a href="#deployment">DEPLOYMENT</a><a href="#library">LIBRARY</a></div><p>© 2026 REALTA FUSION<br>POWER WITHOUT LIMITS.</p></footer>
+</body>
+</html>

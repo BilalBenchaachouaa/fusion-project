@@ -1,0 +1,23 @@
+/* Final Realta hero tuning — loaded after the base visual system. */
+.hero {
+  height: 850vh;
+}
+
+.hero-active main > section:not(.hero),
+.hero-active footer {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    height: 650vh;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero {
+    height: 200vh;
+  }
+}
