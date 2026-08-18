@@ -3,6 +3,20 @@
 .env.*
 !.env.example
 
+# Credentials, certificates, and local secret stores
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+.htpasswd
+credentials*.json
+service-account*.json
+secrets/
+.secrets/
+.npmrc
+
 # Node / Next.js / frontend builds
 node_modules/
 .next/
@@ -23,6 +37,14 @@ venv/
 *.tmp
 *.temp
 *.swp
+
+# Local databases, dumps, and backups
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+*.bak
 
 # Editors and operating systems
 .vscode/
