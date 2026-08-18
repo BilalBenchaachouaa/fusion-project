@@ -3,6 +3,49 @@
   height: 850vh;
 }
 
+.nav .brand-logo {
+  display: inline-flex;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  flex: 0 0 auto;
+}
+
+.nav .brand-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 1px 5px rgba(0, 0, 0, .28));
+}
+
+.nav nav a,
+.nav .contact,
+.nav .menu {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.nav nav a.active {
+  font-weight: 600;
+}
+
+.nav nav a::after {
+  height: 2px;
+  background: #ff7a1a;
+  border-radius: 2px;
+}
+
+.nav nav a:hover:not(.active)::after {
+  right: 72%;
+  opacity: .58;
+}
+
+.nav nav a.active::after {
+  right: 0;
+  opacity: 1;
+}
+
 .hero-active main > section:not(.hero),
 .hero-active footer {
   visibility: hidden;
@@ -13,6 +56,11 @@
 @media (max-width: 800px) {
   .hero {
     height: 650vh;
+  }
+
+  .nav .brand-logo {
+    width: 112px;
+    height: 38px;
   }
 }
 
