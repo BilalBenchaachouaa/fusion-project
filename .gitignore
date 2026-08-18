@@ -1,0 +1,54 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Credentials, certificates, and local secret stores
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+.htpasswd
+credentials*.json
+service-account*.json
+secrets/
+.secrets/
+.npmrc
+
+# Node / Next.js / frontend builds
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+.turbo/
+
+# Python local server artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+
+# Local databases, dumps, and backups
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+*.bak
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
